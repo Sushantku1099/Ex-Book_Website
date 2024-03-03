@@ -1,0 +1,28 @@
+/* Common styles for all forms */
+.form-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input[type="text"],.input[type="password"],.input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d2a40a;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+}

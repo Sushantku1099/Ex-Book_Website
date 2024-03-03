@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/login_styles.css">
+</head>
+<body>
+    <div id="login_form">
+        <form name="f1" method="post" action="login.php" id="f1">
+            <fieldset>
+                <legend class="f1_label">Login</legend>
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <input type="submit" name="login" value="Log In">
+            </fieldset>
+            <div id="error_message" class="hidden">Invalid username or password</div>
+        </form>
+    </div>
+    <script src="js/login_script.js"></script>
+</body>
+</html>
